@@ -1,0 +1,26 @@
+{
+  "name": "utf82hex",
+  "version": "0.0.2",
+  "description": "A tool to convert utf8 text to it's utf8 hex string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dabura667/utf82hex.git"
+  },
+  "keywords": [
+    "utf8"
+  ],
+  "author": "dabura667 <matsuringo667@gmail.com> (https://bip32jp.github.io/english/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dabura667/utf82hex/issues"
+  },
+  "homepage": "https://github.com/dabura667/utf82hex",
+  "dependencies": {
+    "string.prototype.codepointat": "^0.2.0",
+    "string.prototype.repeat": "^0.2.0"
+  }
+}
