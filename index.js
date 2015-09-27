@@ -56,7 +56,7 @@ var utf8encode = function (inputstring) {
 
 var utf8decode = function (inputstring) {
   try {
-    var result = decodeURIComponent(inputstring.replace(/\s+/g, '').replace(/[0-9a-f]{2}/g, '%$&'));
+    var result = decodeURIComponent(inputstring.toLowerCase().replace(/\s+/g, '').replace(/[0-9a-f]{2}/g, '%$&'));
   } catch(e) {
     throw "Not valid UTF-8 hex code!";
   };
