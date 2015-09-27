@@ -7,8 +7,10 @@
 ```javascript
 > var utf82hex = require('utf82hex')
 undefined
-> utf82hex("漢字") // This is represented as unicode codepoints '\u6f22' + '\u5b57'
+> utf82hex.encode("漢字") // This is represented as unicode codepoints '\u6f22' + '\u5b57'
 'e6bca2e5ad97'     // Hex string representation of the unicode encoded in utf-8
+> utf82hex.decode("e6bca2e5ad97")
+'漢字'
 ```
 
 [漢](http://www.fileformat.info/info/unicode/char/6f22/index.htm)
