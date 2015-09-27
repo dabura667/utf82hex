@@ -1,6 +1,6 @@
 {
   "name": "utf82hex",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A tool to convert utf8 text to it's utf8 hex string",
   "main": "index.js",
   "scripts": {
