@@ -1,5 +1,7 @@
 # utf82hex
 
+[![NPM](http://img.shields.io/npm/v/utf82hex.svg)](https://www.npmjs.org/package/utf82hex)
+
 ## Usage
 
 ```javascript
